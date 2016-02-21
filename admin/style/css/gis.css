@@ -1,0 +1,92 @@
+@CHARSET "UTF-8";
+
+#landing {
+	width: 900px;
+	height: 100%;
+	margin: auto;
+	background-color: #fff
+	
+}
+
+#landing #login{
+	width: 300px;
+	height: 100%;
+	margin: auto;
+	
+}
+
+#landing a {
+	font-size: 14px;
+}
+#landing a:hover {
+	color: #469400;
+	
+}
+#landing label {
+	font-size: 14px;
+	font-weight: normal;
+}
+
+#footer {
+	margin-top: 20px;
+}
+
+
+.text {
+	font-size: 13px;
+	padding-top: 15px; 
+	padding-right: 20px;
+
+}
+
+.text a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+.clear {
+	clear: both;
+}
+
+/*
+
+dari sini akhir landing dan ke indexnya
+
+*/
+#content {
+	margin-top: 100px;
+}
+#wrap {
+	width: 1020px;
+	height: 100%;
+	background-color: #fff;
+	margin: auto;
+	border: 1px solid #ccc;
+	padding-bottom: 50px;
+	border-radius: 10px;
+	box-shadow: 1px 2px 2px 2px #bbb;
+}
+
+#wrap #side {
+	float: left;
+	width : 200px;
+	padding: 10px;
+	
+
+}
+
+#wrap #data {
+	float: left;
+	display: inline;
+	width : 800px;
+	padding: 10px;
+	margin-left: 0px;
+	border-left: 2px solid #bbb;
+
+}
+
+
+
+#wrap #data #tmb a:hover {
+	text-decoration: none;
+	box-shadow: 1px 4px 4px 4px #bbb;
+}

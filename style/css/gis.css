@@ -1,0 +1,168 @@
+@CHARSET "UTF-8";
+
+#landing {
+	width: 900px;
+	height: 100%;
+	margin: auto;
+	
+}
+#landing a {
+	font-size: 14px;
+}
+#landing a:hover {
+	color: #469400;
+}
+
+#landing #area {
+	float: left;
+	width : 550px;
+	padding: 10px;
+	margin-bottom: 30px;
+	
+}
+
+#landing #area p {
+	font-size: 14px;
+	}
+
+#landing #sign {
+	float: left;
+	display: inline;
+	width : 300px;
+	padding: 10px;
+	margin-left: 50px;
+	border-left: 1px solid #ccc;
+	
+	
+}
+#landing label {
+	font-size: 14px;
+	font-weight: normal;
+}
+
+#footer {
+	margin-top: 20px;
+	
+}
+
+
+.text {
+	font-size: 13px;
+	padding-top: 15px; 
+	padding-right: 20px;
+	
+}
+
+.text a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+.clear {
+	clear: both;
+}
+
+/*
+
+dari sini akhir landing dan ke indexnya
+
+*/
+#content {
+	margin-top: 100px;
+}
+#wrap {
+	width: 950px;
+	height: 100%;
+	background-color: #ffffed;
+	margin: auto;
+	border: 1px solid #ccc;
+	padding-bottom: 50px;
+	border-radius: 10px;
+	box-shadow: 1px 2px 2px 2px #bbb;
+
+}
+
+#wrap #side {
+	float: left;
+	width : 210px;
+	padding: 5px;
+	border-right: 1px solid #bbb;
+
+}
+
+#wrap #data {
+	float: left;
+	display: inline;
+	width : 710px;
+	padding: 10px;
+	margin-left: 0px;
+	border-left: 1px solid #bbb;
+
+}
+
+#wrap #data a {
+	color: rgb(60, 118, 61);
+}
+
+
+/*
+
+Chatting CSS
+
+*/
+
+#chat {
+	width: 720px;
+	height: auto;
+	clear: both;
+
+}
+
+#chat #left {
+	width: 440px;
+	height: auto;
+	float: left;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	margin-right: 10px;
+	padding: 10px;
+	
+}
+
+#chat #left a:hover {
+	text-decoration: none;
+}
+
+#chat #right {
+	width: 260px;
+	height: auto;
+	float: right;
+	padding: 10px;	
+	display: inline;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+#chat #left .pesan {
+	padding: 5px;
+	color: #141613;
+}
+
+#chatbox{
+	text-align : left;
+	margin : 0 auto;
+	margin-bottom : 25px;
+	padding : 5px;
+	background : #ffffed;
+	height : 380px;
+	width : 420px;
+	overflow : auto;
+	border: 1px solid #ccc;
+}
+
+#useron {
+	text-align : left;
+	background : #ffffed;
+	width : auto;
+	height : 400px;
+
+}
